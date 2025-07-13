@@ -36,8 +36,8 @@ Normalized sentence-level WERs of different fine-tuned ASR models on the NSC<sub
 
 | Model name              | NSC<sub>P12</sub> | NSC<sub>P35</sub> | NSC<sub>P15</sub> | NSC<sub>P16</sub> |
 |--------------------------|-------------------|-------------------|-------------------|-------------------|
-| Whisper-small            | 12.99             | 8.62              | 7.62              | _7.13_            |
-| Whisper-medium           | 11.83             | 7.44              | 6.92              | **6.61**          |
+| Whisper-small            | 12.99             | 8.62              | 7.62              | _7.14_            |
+| Whisper-medium           | 11.83             | 7.44              | 6.92              | **6.63**          |
 | SeamlessM4T-medium       | 16.83             | 12.66             | 13.03             | -                 |
 | SpeechT5                 | 24.33             | 13.15             | 12.17             | -                 |
 
