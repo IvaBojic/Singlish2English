@@ -49,6 +49,7 @@ CUDA_VISIBLE_DEVICES=0 python fine_tuning.py \
   --world_size 1 \         # Single GPU  
   --batch 8 \              # Batch size  
   --epoch 3                # Number of training epochs
+```
 
 ### Fine-tuning `openai/whisper-small` for translation (7 GPUs)
 
@@ -60,3 +61,4 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6 python fine_tuning.py \
   --world_size 7 \         # Number of GPUs  
   --batch 16 \             # Batch size per GPU  
   --task translate         # Translation task
+```
